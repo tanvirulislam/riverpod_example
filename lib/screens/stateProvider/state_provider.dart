@@ -9,6 +9,7 @@ class CounterWidget extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     print('build');
     return Scaffold(
+      appBar: AppBar(title: Text('Counter')),
       body: Center(
         child: Consumer(
           builder: (context, ref, child) {

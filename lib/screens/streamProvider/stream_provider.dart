@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:project_riverpod/screens/futureProvider/weather_report.dart';
 import 'package:project_riverpod/screens/streamProvider/fetch_number.dart';
 
 class NumberScreen extends ConsumerWidget {

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:project_riverpod/screens/futureProvider/future_provider.dart';
 import 'package:project_riverpod/screens/streamProvider/stream_provider.dart';
 
 class HomeStreamProvider extends StatelessWidget {
