@@ -5,7 +5,8 @@ import 'package:project_riverpod/screens/apiCaling/http_helper.dart';
 
 import 'package:project_riverpod/screens/apiCaling/model.dart';
 
-final postsProvider = StateNotifierProvider<PostNotifier, PostState>((ref) {
+final postsProvider =
+    StateNotifierProvider.autoDispose<PostNotifier, PostState>((ref) {
   return PostNotifier();
 });
 
